@@ -1,0 +1,128 @@
+#heading{
+    position: absolute;
+    color: aqua;
+    font-size: 25px;
+    font-family: 'Londrina Solid', cursive;
+    margin: 10px 15px;
+    background: -webkit-linear-gradient(90deg,#FF94CC,#A239EA,#5C33F6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav{
+    position: absolute;
+    background-color: transparent;
+    margin: 250px 20px ;
+    display: grid;
+    grid-template-columns: 80px;
+    height: 250px;
+}
+#reload{
+    font-size: 50px;
+    color: #EEEEEE;
+}
+.fab{
+    font-size: 50px;
+    color: #4267B2;
+}
+#reload:hover{
+    transform: scale(1.2);
+}
+#insta{
+    background: -webkit-linear-gradient(-135deg,#8a3ab9 60%,#bc2a8d 10%,#fccc63 ,#fbad50 ); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+#insta:hover{
+    transform: scale(1.2);
+}
+#facebook:hover{
+    transform: scale(1.2);
+}
+.board{
+    margin: 76.5px 430px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+#back_video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.cell{
+    background-color: transparent;
+    border: 5px inset #4267B2;
+    height: 200px;
+    cursor: pointer;
+}
+#cross{
+    font-size: 200px;
+    color: #F8485E;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+#circle{
+    font-size: 180px;
+    text-align: center;
+    color: #7DEDFF;
+    height: 190px;
+    width: 200px;
+    padding-top: 10px;
+}
+#note{
+    position: absolute;
+    color: #FF2626;
+    display: flexbox;
+    margin-top: 700px ;
+    margin-left: 50px;
+    font-size: 25px;
+}
+#resultX{
+    background-color: #125D98;
+    position: absolute;
+    margin: 300px 480px;
+    color: #FF4848;
+    width: 500px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 10px;
+    z-index: 9;
+    border-radius: 10px;
+}
+#resultO{
+    background-color: #125D98;
+    position: absolute;
+    margin: 300px 480px;
+    color: #7DEDFF;
+    width: 500px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 10px;
+    z-index: 9;
+    border-radius: 10px;
+}
+#resultD{
+    background-color: #DDDDDD;
+    position: absolute;
+    margin: 300px 480px;
+    color: #3C8DAD;
+    width: 500px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 10px;
+    z-index: 9;
+    border-radius: 10px;
+}

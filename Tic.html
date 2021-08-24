@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="Tac.css">
+    <script src="https://kit.fontawesome.com/de9c29babd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Palette+Mosaic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video src="back.mp4" autoplay muted loop id="back_video"></video>
+    <div id="heading"><h1>Tic Tac Toe</h1></div>
+    <div class="board" id="board">
+         <div class="cell" id="box-1" style="border-left: none; border-top: none;"></div>
+         <div class="cell" id="box-2" style="border-top: none;"></i></div>
+         <div class="cell" id="box-3" style="border-right: none; border-top: none;"></div>
+         <div class="cell" id="box-4" style="border-left: none;"></div>
+         <div class="cell" id="box-5"></div>
+         <div class="cell" id="box-6" style="border-right: none;"></div>
+         <div class="cell" id="box-7" style="border-left: none; border-bottom: none;"></div>
+         <div class="cell" id="box-8" style="border-bottom: none;"></div>
+         <div class="cell" id="box-9" style="border-right: none; border-bottom: none;"></div>
+    </div>
+    <div class="nav">
+        <a href="javascript:location.reload();"><i class="fas fa-redo-alt" id='reload'></i></a><br>
+        <a href="https://m.facebook.com/profile.php?id=100038309592074" target=""><i class="fab fa-facebook-square" id='facebook'></i></a><br>
+        <a href=""><i class="fab fa-instagram" id='insta'></i></a>
+    </div>
+    <div id="note">Note : First Player is X and Second Player is O</div>
+    <script src="Toe.js"></script>
+</body>
+</html>
